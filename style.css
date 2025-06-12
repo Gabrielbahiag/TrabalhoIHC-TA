@@ -197,3 +197,107 @@ body {
   border-radius: 8px; 
   box-shadow: 0 2px 8px rgba(0,0,0,0.12); 
 }
+body.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  background-image: url(assets/medica.avif);
+  background-size: 1600px; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-color: #00BCD4; 
+}
+
+.login-form,
+.remember-me-form { /* Apply to both forms */
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  margin-left: 800px;
+}
+
+.login-form h2,
+.remember-me-form h2 {
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.login-form label,
+.remember-me-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  color: #555555;
+  font-weight: bold;
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"],
+.remember-me-form input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+.login-form .checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: flex-start; 
+}
+
+.login-form .checkbox input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.login-form .extra-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.login-form .extra-links a,
+.remember-me-form a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.login-form .extra-links a:hover,
+.remember-me-form a:hover {
+  text-decoration: underline;
+}
+
+.login-form button,
+.remember-me-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+}
+
+.login-form button:hover,
+.remember-me-form button:hover {
+  background-color: #0056b3;
+}
+
+.remember-me-form div {
+  margin-bottom: 15px;
+}
+
+.remember-me-form div:last-child {
+  margin-bottom: 0;
+}
