@@ -301,3 +301,82 @@ body.login {
 .remember-me-form div:last-child {
   margin-bottom: 0;
 }
+
+body {
+    background: linear-gradient(to right, #ffffff, #8fc0f5); 
+    font-family: Arial, sans-serif; 
+  
+}
+
+
+
+form {
+    background-color: white;
+    width: 500px; 
+    margin: 50px auto;   
+    padding: 30px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px;
+}
+
+input{
+    background: linear-gradient(to right, #ffffff, #daeafc);
+    opacity: 40%;
+    color: black;
+    font-weight: bold;
+    height: 20px;
+    width: 50%;
+}
+
+h2 {
+    text-align: center; 
+    color: #000000;
+}
+
+
+label {
+    display: flex; 
+    margin-top: 20px; 
+    color: #000000;
+    
+}
+
+select {
+     
+    padding: 10px; 
+    
+    border-radius: 4px;
+    box-sizing: border-box; 
+    width: 52%
+    
+}
+
+input:focus, select:focus {
+    outline: none; 
+    border-color: #007bff; 
+}
+
+input[type="checkbox"] {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+    opacity: 1;
+    margin-top:30px
+}
+
+button {
+    padding: 10px 20px; 
+    margin-top: 20px; 
+    border-radius: 5px;
+    border: 1px solid #acacac;
+    background-color: #f0f0f0; 
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:last-of-type {
+    background-color: #007bff; 
+    color: white; 
+    border-color: #007bff;
+    margin-left: 10px; 
+}
