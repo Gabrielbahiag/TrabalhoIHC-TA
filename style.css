@@ -202,16 +202,10 @@ body.login {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f2f5;
-  background-image: url(assets/medica.avif);
-  background-size: 1600px; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-color: #00BCD4; 
 }
 
 .login-form,
-.remember-me-form { /* Apply to both forms */
+.remember-me-form { 
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
@@ -219,7 +213,6 @@ body.login {
   width: 100%;
   max-width: 400px;
   text-align: center;
-  margin-left: 800px;
 }
 
 .login-form h2,
